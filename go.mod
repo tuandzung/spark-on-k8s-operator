@@ -4,11 +4,11 @@ go 1.13
 
 require (
 	cloud.google.com/go v0.38.0
-	github.com/aws/aws-sdk-go v1.29.11
+	github.com/aws/aws-sdk-go v1.34.0
 	github.com/docker/spdystream v0.0.0-20181023171402-6480d4af844c // indirect
-	github.com/elazarl/goproxy v0.0.0-20200421181703-e76ad31c14f6 // indirect
+	github.com/elazarl/goproxy v1.2.1 // indirect
 	github.com/evanphx/json-patch v4.2.0+incompatible
-	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
+	github.com/golang/glog v1.2.4
 	github.com/google/go-cloud v0.1.1
 	github.com/google/uuid v1.1.1
 	github.com/googleapis/gnostic v0.2.0 // indirect
@@ -17,13 +17,13 @@ require (
 	github.com/mattn/go-runewidth v0.0.4 // indirect
 	github.com/olekukonko/tablewriter v0.0.2-0.20190409134802-7e037d187b0c
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v0.9.3
-	github.com/prometheus/client_model v0.0.0-20190129233127-fd36f4220a90
+	github.com/prometheus/client_golang v1.11.1
+	github.com/prometheus/client_model v0.2.0
 	github.com/robfig/cron v1.2.0
 	github.com/spf13/cobra v0.0.6
-	github.com/stretchr/testify v1.4.0
-	golang.org/x/net v0.0.0-20200202094626-16171245cfb2
-	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
+	github.com/stretchr/testify v1.5.1
+	golang.org/x/net v0.33.0
+	golang.org/x/sync v0.10.0
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
 	k8s.io/api v0.16.6
 	k8s.io/apiextensions-apiserver v0.0.0
